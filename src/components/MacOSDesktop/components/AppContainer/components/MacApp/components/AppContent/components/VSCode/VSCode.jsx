@@ -2,7 +2,6 @@
 
 import style from "./VSCode.module.css";
 import appcontent from "../../AppContent.module.css";
-import "./CodeHighLight.css";
 import { ImFilesEmpty } from "react-icons/im";
 import { VscSearch } from "react-icons/vsc";
 import { IoExtensionPuzzleOutline, IoSettingsOutline } from "react-icons/io5";

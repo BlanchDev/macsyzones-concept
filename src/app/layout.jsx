@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./global.css";
+import "./CodeHighlight.css";
 
 const poppins = localFont({
   src: "./fonts/Poppins-Regular.ttf",
