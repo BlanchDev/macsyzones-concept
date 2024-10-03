@@ -1,0 +1,103 @@
+.safariApp {
+  width: 100%;
+  height: 100%;
+  background-color: #080808;
+  border-radius: 7px;
+  border: 1px solid #3f3f47;
+  border-top: 1px solid #6d6d75;
+
+  font-family: var(--font-sf) !important;
+
+  .safariAppHeader {
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    padding: 0 12px;
+    border-radius: 7px 7px 0 0;
+    background-color: #080808;
+
+    .dots {
+      width: max-content;
+      height: 100%;
+
+      .dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+
+        &.red {
+          background-color: #fb4843;
+        }
+
+        &.yellow {
+          background-color: #fcd637;
+        }
+
+        &.green {
+          background-color: #37d05f;
+        }
+      }
+
+      .tools {
+        position: relative;
+        left: 20px;
+        color: rgba(255, 255, 255, 0.5);
+
+        .vline {
+          width: 1px;
+          min-width: 1px;
+          height: 20px;
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      .navigation {
+        position: relative;
+        left: 35px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .center {
+      position: relative;
+      width: 100%;
+      height: 100%;
+
+      .searchBar {
+        width: 350px;
+        color: rgba(255, 255, 255, 0.9);
+        background-color: #373737;
+        border-radius: 5px;
+        padding: 4px 10px;
+        text-align: center;
+
+        .searchInput {
+          width: 100%;
+
+          input {
+            width: 140px;
+          }
+        }
+      }
+    }
+
+    .safariAppRight {
+      width: max-content;
+      height: 100%;
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  .safariAppContainer {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: #080808;
+
+    .safariAppContent {
+      width: 100%;
+      height: max-content;
+      background-color: #080808;
+    }
+  }
+}

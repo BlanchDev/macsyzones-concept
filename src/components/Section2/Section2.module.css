@@ -1,0 +1,22 @@
+.section2 {
+  position: fixed !important;
+  top: 100vh;
+  z-index: 3 !important;
+  opacity: 1;
+  padding: 25px;
+  background-image: url("/images/macosdesert.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: var(--font-spartan);
+  background-color: red;
+  -webkit-transition: top 1s ease-in-out;
+  transition: top 1s ease-in-out;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+}
+/*# sourceMappingURL=Section2.module.css.map */

@@ -1,0 +1,58 @@
+.vscode {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.vscode .leftbar {
+  width: 33px;
+  min-width: 33px;
+  background-color: #dddddd;
+}
+
+.vscode .leftbar button {
+  width: 100%;
+  height: 45px;
+}
+
+.vscode .code-area {
+  background-color: #e7e9db;
+  width: 100%;
+  font-size: 1.3em;
+  padding: 2px;
+  font-weight: 500;
+  text-shadow: 0px 0px 1px #a3a3a3;
+}
+
+.vscode .code-area .tabs {
+  font-size: 0.7em;
+  width: 100%;
+  height: 35px;
+  min-height: 35px;
+  background-color: #dddddd;
+}
+
+.vscode .code-area .tabs .tab {
+  height: 35px;
+  padding: 0 10px;
+  background-color: #e7e9db;
+  border-bottom: 1px solid #d4d4d4;
+  border-right: 1px solid #c0c0c0;
+  border-top: 2px solid #c0c0c0;
+}
+
+.vscode .code-area .tabs .tab.active {
+  background-color: #e7e9db;
+  border-top: 2px solid #e29282 !important;
+  border-bottom: 1px solid #e7e9db !important;
+}
+
+.vscode .code-area .rowCounter {
+  width: 55px;
+  min-width: 55px;
+  padding: 0 15px;
+  color: #b9b9b9;
+  white-space: nowrap;
+  text-align: right;
+}
+/*# sourceMappingURL=VSCode.module.css.map */

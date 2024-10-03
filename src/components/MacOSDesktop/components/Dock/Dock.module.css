@@ -1,0 +1,116 @@
+.dock-container {
+  width: 100%;
+  height: calc(70px + calc(1px + 9px));
+  min-height: calc(70px + calc(1px + 9px));
+  border: 1px;
+}
+
+.dock-container .dock {
+  position: absolute;
+  z-index: 100;
+  padding: 0 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 72px;
+  background-color: rgba(118, 146, 255, 0.32);
+  border-radius: 18px;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  border: 1px solid #92a8ff;
+}
+
+.dock-container .dock .vLine {
+  background-color: #92a8ff;
+  height: 60px;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 1px;
+}
+
+.dock-container .dock .dock-item {
+  width: 60px;
+  height: 60px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.dock-container .dock .dock-item.active {
+  width: 90px;
+  height: 90px;
+  -webkit-transform: translateY(-13px);
+          transform: translateY(-13px);
+}
+
+.dock-container .dock .dock-item.active .icon-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dock-container .dock .dock-item.active + .dock-item:not(.vLine) {
+  width: 75px;
+  height: 75px;
+  -webkit-transform: translateY(-6.5px);
+          transform: translateY(-6.5px);
+}
+
+.dock-container .dock .dock-item.active + .dock-item + .dock-item:not(.vLine) {
+  width: 67.5px;
+  height: 67.5px;
+  -webkit-transform: translateY(-3.75px);
+          transform: translateY(-3.75px);
+}
+
+.dock-container .dock .dock-item:has(+ .active):not(.vLine) {
+  width: 75px;
+  height: 75px;
+  -webkit-transform: translateY(-6.5px);
+          transform: translateY(-6.5px);
+}
+
+.dock-container .dock .dock-item:has(+ .dock-item + .active):not(.vLine) {
+  width: 67.5px;
+  height: 67.5px;
+  -webkit-transform: translateY(-3.75px);
+          transform: translateY(-3.75px);
+}
+
+.dock-container .dock .dock-item .icon-name {
+  display: none;
+  padding: 5px;
+  position: absolute;
+  top: -38px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 7px;
+  background-color: rgba(118, 146, 255, 0.8);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  border: 1px solid #92a8ff;
+}
+
+.dock-container .dock .dock-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.dock-container .dock .dock-item .dot {
+  position: absolute;
+  bottom: -3.5px;
+  z-index: 10;
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=Dock.module.css.map */

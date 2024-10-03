@@ -1,0 +1,39 @@
+.app-bar {
+  width: 100%;
+  height: 36px;
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 7px 7px 0 0;
+  background: #cfcfcf;
+  background: -webkit-gradient(linear, left bottom, left top, from(#cfcfcf), to(#eaeaea));
+  background: linear-gradient(0deg, #cfcfcf 0%, #eaeaea 100%);
+}
+
+.app-bar .dots {
+  position: absolute;
+}
+
+.app-bar .dots .dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  border: 1px solid #b1b1b1;
+}
+
+.app-bar .dots .dot.red {
+  background-color: #fb4843;
+}
+
+.app-bar .dots .dot.yellow {
+  background-color: #fcd637;
+}
+
+.app-bar .dots .dot.green {
+  background-color: #37d05f;
+}
+
+.app-bar .app-title {
+  width: 100%;
+  font-weight: bold;
+}
+/*# sourceMappingURL=AppBar.module.css.map */

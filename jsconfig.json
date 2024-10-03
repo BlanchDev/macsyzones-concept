@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./node_modules/@types/node"] // 'node' için tür tanımı dosyası eklenmiştir.
+  }
+}

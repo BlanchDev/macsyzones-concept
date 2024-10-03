@@ -1,0 +1,24 @@
+.netflix {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+.netflix .content {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.netflix .content h3 {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+/*# sourceMappingURL=Netflix.module.css.map */

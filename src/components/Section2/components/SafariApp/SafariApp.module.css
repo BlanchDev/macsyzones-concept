@@ -1,0 +1,109 @@
+.safariApp {
+  width: 100%;
+  height: 100%;
+  background-color: #080808;
+  border-radius: 7px;
+  border: 1px solid #3f3f47;
+  border-top: 1px solid #6d6d75;
+  font-family: var(--font-sf) !important;
+}
+
+.safariApp .safariAppHeader {
+  width: 100%;
+  height: 40px;
+  min-height: 40px;
+  padding: 0 12px;
+  border-radius: 7px 7px 0 0;
+  background-color: #080808;
+}
+
+.safariApp .safariAppHeader .dots {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+}
+
+.safariApp .safariAppHeader .dots .dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+}
+
+.safariApp .safariAppHeader .dots .dot.red {
+  background-color: #fb4843;
+}
+
+.safariApp .safariAppHeader .dots .dot.yellow {
+  background-color: #fcd637;
+}
+
+.safariApp .safariAppHeader .dots .dot.green {
+  background-color: #37d05f;
+}
+
+.safariApp .safariAppHeader .dots .tools {
+  position: relative;
+  left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.safariApp .safariAppHeader .dots .tools .vline {
+  width: 1px;
+  min-width: 1px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.safariApp .safariAppHeader .dots .navigation {
+  position: relative;
+  left: 35px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.safariApp .safariAppHeader .center {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.safariApp .safariAppHeader .center .searchBar {
+  width: 350px;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #373737;
+  border-radius: 5px;
+  padding: 4px 10px;
+  text-align: center;
+}
+
+.safariApp .safariAppHeader .center .searchBar .searchInput {
+  width: 100%;
+}
+
+.safariApp .safariAppHeader .center .searchBar .searchInput input {
+  width: 140px;
+}
+
+.safariApp .safariAppHeader .safariAppRight {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.safariApp .safariAppContainer {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: #080808;
+}
+
+.safariApp .safariAppContainer .safariAppContent {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #080808;
+}
+/*# sourceMappingURL=SafariApp.module.css.map */

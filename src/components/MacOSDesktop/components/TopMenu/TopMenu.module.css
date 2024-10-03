@@ -1,0 +1,59 @@
+.top-menu {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 29px;
+  background-color: rgba(118, 146, 255, 0.32);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.top-menu .left-side {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+}
+
+.top-menu .left-side .apple-logo {
+  margin-left: 10px;
+  margin-right: 8px;
+  padding: 5px 12px;
+}
+
+.top-menu .left-side .section {
+  font-size: 13px;
+  padding: 0 8px;
+  height: 100%;
+}
+
+.top-menu .left-side .section.finder {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.top-menu .right-side {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 100%;
+  padding-right: 9px;
+}
+
+.top-menu .right-side .control-center-icon {
+  height: 100%;
+  margin-right: 9px;
+  padding: 0 8px;
+}
+
+.top-menu .right-side .section {
+  font-size: 13.1px;
+  height: 100%;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.top-menu .right-side .section .date {
+  margin-right: 9px;
+}
+/*# sourceMappingURL=TopMenu.module.css.map */
