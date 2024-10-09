@@ -125,7 +125,12 @@ function Section1() {
       }}
     >
       <div className={`${style.content} row aic jcc gap50`} ref={content1Ref}>
-        <img src={"/images/logo4.png"} alt='Logo' width={350} height={350} />
+        <img
+          src={"/images/dark-logo.png"}
+          alt='Logo'
+          width={350}
+          height={350}
+        />
         <div className={`${style.text} column aic jcc gap50`}>
           <h1 className='row aic jcc'>
             Macsy<span>Zones</span>
@@ -134,7 +139,7 @@ function Section1() {
             <b>Workspace,</b>
             <b className='row aic gap7'>
               <span className={style.gold}>redefined</span> &{" "}
-              <span className={style.white}>opensourced.</span>
+              <span className={style.white}>revolutionized.</span>
             </b>
           </p>
           <div className='column aife jcc w100 gap40'>

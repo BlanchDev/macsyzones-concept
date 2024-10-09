@@ -27,7 +27,7 @@ export const metadata = {
   title: "Macsy Zones",
   description: "Enhance your MacOS workflow. Free and open source!",
   icons: {
-    icon: "/logo4.ico",
+    icon: "/darklogo.ico",
   },
 };
 

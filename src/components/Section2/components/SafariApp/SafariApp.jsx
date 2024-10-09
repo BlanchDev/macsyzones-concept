@@ -65,7 +65,12 @@ function SafariApp() {
       <div className={`${styles.safariAppContainer} column aic gap25`}>
         <div className={`${styles.safariAppContent} column aic gap7`}>
           <div className={`row aic gap7`}>
-            <img src={"/images/logo4.png"} alt='Logo' width={50} height={50} />
+            <img
+              src={"/images/dark-logo.png"}
+              alt='Logo'
+              width={50}
+              height={50}
+            />
             <h3>Macsy Zones</h3>
           </div>
           <p>
