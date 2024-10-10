@@ -148,7 +148,7 @@ function Section1() {
             </button>
             <button
               className='row aic jcc'
-              onClick={() => window.open("", "_blank")}
+              onClick={() => window.open("https://macsyzones.com/", "_blank")}
             >
               Discover More
             </button>
