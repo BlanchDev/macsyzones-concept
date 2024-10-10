@@ -1,8 +1,8 @@
 # MacsyZones
 
-This is a [concept web site for MacsyZones.](https://macsyzones-concept.vercel.app/)
+This is a [concept web site for MacsyZones.](https://macsyzones-concept.vercel.app/){:target="_blank"}
 
-Real & Official project is [here. (https://macsyzones.com)](https://macsyzones.com).
+Real & Official project is [here. (https://macsyzones.com)](https://macsyzones.com){:target="_blank"}
 
 ## Getting Started
 
