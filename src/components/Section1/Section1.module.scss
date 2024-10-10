@@ -10,7 +10,6 @@
 
   font-family: var(--font-spartan);
   transition: all 1s ease-in-out;
-  pointer-events: none;
 
   .content {
     position: absolute;
@@ -63,18 +62,22 @@
 
       }
 
-      button {
+      .try {
         display: none;
+      }
+
+      button {
+        font-family: var(--font-sf);
         width: max-content;
         height: max-content;
-        background-color: #5773e6; // Parlak arka plan rengi
-        color: rgba(255, 255, 255, 0.8); // Metin rengi
-        padding: 15px 25px; // Buton için dolgu
-        border: none; // Kenar yok
-        border-radius: 5px; // Yuvarlatılmış köşeler
-        cursor: pointer; // Üzerine gelindiğinde işaretçi
-        font-size: 1.2em; // Yazı boyutu
-        transition: background-color 0.3s ease, transform 0.2s ease, filter 0.2s ease; // Akıcı geçişler
+        background-color: #eab872;
+        color: rgba(0, 0, 0, 0.8);
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5em;
+        transition: background-color 0.3s ease, transform 0.2s ease, filter 0.2s ease;
         font-weight: bold;
 
         &:hover {

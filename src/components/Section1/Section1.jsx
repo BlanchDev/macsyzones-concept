@@ -142,9 +142,15 @@ function Section1() {
               <span className={style.white}>revolutionized.</span>
             </b>
           </p>
-          <div className='column aife jcc w100 gap40'>
-            <button id='try' className='row aic jcc'>
+          <div className='column aic jcc w100 gap40'>
+            <button id='try' className={`${style.try} row aic jcc`}>
               Watch Demo
+            </button>
+            <button
+              className='row aic jcc'
+              onClick={() => window.open("", "_blank")}
+            >
+              Discover More
             </button>
           </div>
         </div>

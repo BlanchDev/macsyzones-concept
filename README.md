@@ -1,13 +1,15 @@
 # MacsyZones
 
-MacsyZones is a frontend website showcasing a concept for a free and open-source MacOS workspace enhancement tool. Please note that this is only a website demonstration and not a functional application.
+This is a [concept web site for MacsyZones.](https://macsyzones-concept.vercel.app/)
+
+Real & Official project is [here. (https://macsyzones.com)](https://macsyzones.com).
 
 ## Getting Started
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/BlanchDev/macsyzones.git
+   git clone https://github.com/BlanchDev/macsyzones-concept.git
    ```
 
 2. Install dependencies:
@@ -26,4 +28,4 @@ MacsyZones is a frontend website showcasing a concept for a free and open-source
 
 ---
 
-MacsyZones - Redefining workspace management on MacOS.
+MacsyZones - Redefining workspace management on MacOS
