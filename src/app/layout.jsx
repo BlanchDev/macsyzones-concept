@@ -25,7 +25,8 @@ const spartan = localFont({
 
 export const metadata = {
   title: "Macsy Zones",
-  description: "Enhance your MacOS workflow. Free and open source!",
+  description:
+    "MacsyZones helps you organize your windows efficiently on macOS. MacsyZones is a complete FancyZones equivalent for macOS.",
   icons: {
     icon: "/darklogo.ico",
   },
